@@ -1,12 +1,12 @@
-import Image from "next/image";
+import Card from "@/components/Section/card";
+import Hero from "@/components/Section/hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    Bienvenu sur le site de ASPE
-    <div> 
-      Notre site est en production actuellement
+    <div className="">
+  
+     
+  <Hero/>
     </div>
-    </main>
   );
 }
