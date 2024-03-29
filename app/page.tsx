@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="">
   
-     
+     <img src="/image/hero1.jpg" alt="" />
   <Hero/>
   <Card/>
     </div>
