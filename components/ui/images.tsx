@@ -38,11 +38,7 @@ export const ImagesSlider = ({
  
   useEffect(() => {
     loadImages();
-  }, [ 
-    "/image/hero2.jpg",
-    "/image/hero3.jpg",
-    "/image/hero4.jpg",
-  ]);
+  }, [ ]);
  
   const loadImages = () => {
     setLoading(true);
