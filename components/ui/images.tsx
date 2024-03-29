@@ -10,7 +10,7 @@ export const ImagesSlider = ({
   overlayClassName,
   className,
   autoplay = true,
-  direction = "up",
+  direction = "down",
 }: {
   images: string[];
   children: React.ReactNode;
@@ -38,7 +38,11 @@ export const ImagesSlider = ({
  
   useEffect(() => {
     loadImages();
-  }, []);
+  }, [ 
+    "/image/hero2.jpg",
+    "/image/hero3.jpg",
+    "/image/hero4.jpg",
+  ]);
  
   const loadImages = () => {
     setLoading(true);
