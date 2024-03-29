@@ -14,6 +14,8 @@ const hero = () => {
     ];
     return (
         <ImagesSlider className="h-[40rem]" images={images}>
+
+Tu sais que je t ' ai toujours vu comme un ami'
             <motion.div
                 initial={{
                     opacity: 0,
