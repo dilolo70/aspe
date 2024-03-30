@@ -1,13 +1,17 @@
 import Card from "@/components/Section/card";
 import { Hero } from "@/components/Section/hero";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import NewsletterSection from "@/components/Section/NewsletterSection";
+import { Presentation } from "@/components/Section/Presentation";
 
 export default function Home() {
   return (
     <div className="">
- <Button>Creation en mode pro</Button>
       
+
+    <Hero/>
+    <Presentation/>
+    <NewsletterSection/>
     </div>
   );
 }

@@ -47,7 +47,7 @@ export default function Navigation() {
     hasScrolled ? "border-blue-300" : "border-transparent"
     )}>
       <nav className="px-4 md:px-6 py-3 lg max-w-[1200px] mx-auto flex justify-between items-center gap-3">
-        <Link href="/" className="shrink-0 text-blue-500">
+        <Link href="/" className="shrink-0 text-foreground">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
@@ -78,7 +78,7 @@ export default function Navigation() {
           ))}
         </ul>
         <Popover className="relative ml-auto md:hidden">
-          <Popover.Button className="flex items-center gap-1 text-black dark p-1 rounded-lg focus-visible:outline-none focus:ring-0">
+          <Popover.Button className="flex items-center gap-1 text-black dark:text-white p-1 rounded-lg focus-visible:outline-none focus:ring-0">
             Menu
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ export default function Navigation() {
             leaveTo="opacity-0 translate-y-1"
           >
             <Popover.Panel
-              className="absolute z-10 right-0 p-2 mt-2 overflow-auto text-base origin-top-right shadow-lg w-40 rounded-xl bg-slate-100 focus:outline-none sm:text-sm"
+              className="absolute z-10 right-0 p-2 mt-2 overflow-auto text-base origin-top-right shadow-lg w-40 rounded-xl bg-slate-100 dark:bg-slate-900 focus:outline-none sm:text-sm"
               style={theme === "terminal" ? { background: "#040605" } : {}}
             >
               <div className="grid">
@@ -109,9 +109,9 @@ export default function Navigation() {
                     key={link.href}
                     href={link.href}
                     className={clsx(
-                      "px-4 py-2 rounded-md hover:text-blue-500 transition-colors",
+                      "px-4 py-2 rounded-md text-black dark:text-white  hover:text-blue-500 dark:hover:text-blue-500 transition-colors",
                       pathname === link.href
-                        ? "bg-secondary font-medium"
+                        ? " font-medium"
                         : "font-normal"
                     )}
                   >

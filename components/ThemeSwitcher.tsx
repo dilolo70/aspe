@@ -23,8 +23,8 @@ export default function ThemeSwitcher() {
       <Listbox value={theme} onChange={(value) => setTheme(value)}>
         {({ open }) => {
           const iconClassName = clsx(
-            "w-5 h-5 text-secondary hover:text-primary cursor-pointer transition-colors",
-            open ? "text-blue-500" : "text-secondary"
+            "w-5 h-5 text-foreground hover:text-primary cursor-pointer transition-colors",
+            open ? "text-foregroung" : "text-secondary"
           );
           return (
             <div className="relative">
@@ -48,15 +48,15 @@ export default function ThemeSwitcher() {
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.9 }}
                     transition={{ type: "spring", bounce: 0.3, duration: 0.3 }}
-                    className="absolute right-0 p-2 mt-2 overflow-auto text-base origin-top-right shadow-lg max-h-60 w-42 rounded-xl bg-primary focus:outline-none sm:text-sm capitalize"
+                    className="absolute right-0 p-2 mt-2 overflow-auto text-base origin-top-right shadow-lg max-h-60 w-42 rounded-xl dark:bg-slate-900 bg-slate-200 focus:outline-none sm:text-sm capitalize"
                   >
                     {themes.map((theme) => (
                       <Listbox.Option
                         key={theme}
                         className={({ active }) =>
                           clsx(
-                            "relative cursor-default select-none py-2 pl-10 pr-4 rounded-md",
-                            active ? "bg-secondary" : ""
+                            "relative cursor-default text-foreground select-none py-2 pl-10 pr-4 rounded-md",
+                            active ? "bg-transparent" : ""
                           )
                         }
                         value={theme}
