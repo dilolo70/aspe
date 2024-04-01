@@ -35,12 +35,7 @@ export default function About() {
             </p>
             <p>
               {" "}
-              <Link
-                className="underline"
-                href="https://www.youtube.com/channel/@brianruizy"
-              >
-              
-              </Link>{" "}
+             
             
             </p>
             <p>
