@@ -89,7 +89,7 @@ export function Presentation() {
             Nous agissons pour le renforcement
           </p>
           <p className="text-[1.375rem] font-[500] text-secondary-foreground">
-            des bonnes capacités dI&apos;expressions orale, écrite, sociale et culturelle
+            des bonnes capacités d&apos;expression orale, écrite, sociale et culturelle
           </p>
           <div className="flex gap-[1.75rem] items-center mt-[3rem]">
             <div className="flex gap-[1.56rem] items-center">
