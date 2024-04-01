@@ -28,26 +28,23 @@ export default function About() {
       >
         <Section heading="" headingAlignment="left">
           <div className="flex flex-col gap-6 text-foreground">
-            <p>Hello world, I&apos;m Brian Ruiz!</p>
+            <p>Moi{"c'est "} , I&apos;</p>
 
             <p>
-              I have a passion for design and am always looking for ways to
-              incorporate it into my engineering work.
+              Président de l
             </p>
             <p>
-              In addition to coding, I also make{" "}
+              {" "}
               <Link
                 className="underline"
                 href="https://www.youtube.com/channel/@brianruizy"
               >
-                YouTube
+              
               </Link>{" "}
-              videos, where I focus on tech gear, creative vlogs, and a bit of
-              personal development.
+            
             </p>
             <p>
-              When I&apos;m not at my desk I am probably lifting weights,
-              playing soccer, or at a coffee shop :)
+              &apos; :)
             </p>
           </div>
         </Section>
