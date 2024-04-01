@@ -78,7 +78,7 @@ export default function Navigation() {
           ))}
         </ul>
         <Popover className="relative ml-auto md:hidden">
-          <Popover.Button className="flex items-center gap-1 text-black dark:text-white p-1 rounded-lg focus-visible:outline-none focus:ring-0">
+          <Popover.Button className="flex items-center gap-1 text-foreground p-1 rounded-lg focus-visible:outline-none focus:ring-0">
             Menu
             <svg
               xmlns="http://www.w3.org/2000/svg"

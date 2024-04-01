@@ -24,7 +24,7 @@ export default function ThemeSwitcher() {
         {({ open }) => {
           const iconClassName = clsx(
             "w-5 h-5 text-foreground hover:text-primary cursor-pointer transition-colors",
-            open ? "text-foregroung" : "text-secondary"
+            open ? "text-foreground" : "text-foreground"
           );
           return (
             <div className="relative">

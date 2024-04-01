@@ -47,7 +47,7 @@ export const ImagesSlider = ({
         const img = new Image();
         img.src = image;
         img.onload = () => resolve(image);
-        img.onerror = reject;
+        // img.onerror = reject;
       });
     });
  

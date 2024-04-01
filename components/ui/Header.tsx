@@ -11,7 +11,7 @@ function Header({ title, subtitle }: IProps) {
       <p className="text-muted-foreground tracking-[0.39375rem] uppercase text-[0.875rem] font-[700] text-center">
         {title}
       </p>
-      <p className="text-white text-2xl md:text-[3.25rem] font-[700] text-center">
+      <p className="text-foreground text-2xl md:text-[3.25rem] font-[700] text-center">
         {subtitle}
       </p>
     </div>

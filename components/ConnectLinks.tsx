@@ -60,3 +60,59 @@ const ConnectLinks: ConnectLink[] = [
 ];
 
 export default ConnectLinks;
+
+
+interface Objectifs { 
+  titre: string,
+  description : string,
+}
+
+const ObjectifsPrincipales : Objectifs[] = [
+  
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+  {
+    titre: "Créer ",
+    description: "Créer un cadre d'echange entre les jeunes au moyens des  activites culturlles traitant des themes d'actualités choisi zt approuvés",
+    
+  },
+
+];
