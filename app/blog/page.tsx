@@ -1,6 +1,4 @@
 import { Metadata } from "next";
-import PostList from "./components/ui/PostList";
-import NewsletterSignupForm from "./components/ui/NewsletterSignupForm";
 import Header from "@/components/ui/Header";
 import Halo from "@/components/ui/Halo";
 
